@@ -1,0 +1,337 @@
+QMK Firmware 0.6.308
+Making handwired/dell_u473d/teensy_lc with keymap default
+
+arm-none-eabi-gcc (Arch Repository) 8.2.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compiling: keyboards/handwired/dell_u473d/dell_u473d.c                                             In file included from ./keyboards/handwired/dell_u473d/config.h:20,
+                 from <command-line>:
+quantum/config_common.h:203:33: error: expected ')' before numeric constant
+     #define C1  PAL_LINE(GPIOC, 1)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:95:17: note: in expansion of macro 'C1'
+   __IO uint8_t  C1;
+                 ^~
+quantum/config_common.h:204:33: error: expected ')' before numeric constant
+     #define C2  PAL_LINE(GPIOC, 2)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:96:17: note: in expansion of macro 'C2'
+   __IO uint8_t  C2;
+                 ^~
+quantum/config_common.h:205:33: error: expected ')' before numeric constant
+     #define C3  PAL_LINE(GPIOC, 3)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:97:17: note: in expansion of macro 'C3'
+   __IO uint8_t  C3;
+                 ^~
+quantum/config_common.h:206:33: error: expected ')' before numeric constant
+     #define C4  PAL_LINE(GPIOC, 4)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:98:17: note: in expansion of macro 'C4'
+   __IO uint8_t  C4;
+                 ^~
+quantum/config_common.h:207:33: error: expected ')' before numeric constant
+     #define C5  PAL_LINE(GPIOC, 5)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:99:17: note: in expansion of macro 'C5'
+   __IO uint8_t  C5;
+                 ^~
+quantum/config_common.h:208:33: error: expected ')' before numeric constant
+     #define C6  PAL_LINE(GPIOC, 6)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:100:17: note: in expansion of macro 'C6'
+   __IO uint8_t  C6;
+                 ^~
+quantum/config_common.h:209:33: error: expected ')' before numeric constant
+     #define C7  PAL_LINE(GPIOC, 7)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:107:17: note: in expansion of macro 'C7'
+   __IO uint8_t  C7;
+                 ^~
+quantum/config_common.h:210:33: error: expected ')' before numeric constant
+     #define C8  PAL_LINE(GPIOC, 8)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:108:17: note: in expansion of macro 'C8'
+   __IO uint8_t  C8;
+                 ^~
+quantum/config_common.h:211:33: error: expected ')' before numeric constant
+     #define C9  PAL_LINE(GPIOC, 9)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:109:17: note: in expansion of macro 'C9'
+   __IO uint8_t  C9;
+                 ^~
+quantum/config_common.h:212:33: error: expected ')' before numeric constant
+     #define C10 PAL_LINE(GPIOC, 10)
+                                 ^~
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:110:17: note: in expansion of macro 'C10'
+   __IO uint8_t  C10;
+                 ^~~
+In file included from ./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:32,
+                 from ./lib/chibios-contrib/os/common/startup/ARMCMx/devices/KL2x/cmparams.h:78,
+                 from ./lib/chibios/os/common/ports/ARMCMx/chcore.h:70,
+                 from ./lib/chibios/os/rt/include/ch.h:81,
+                 from ./lib/chibios/os/hal/osal/rt/osal.h:32,
+                 from ./lib/chibios/os/hal/include/hal.h:28,
+                 from quantum/quantum.h:25,
+                 from keyboards/handwired/dell_u473d/dell_u473d.h:18,
+                 from keyboards/handwired/dell_u473d/dell_u473d.c:16:
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:111:1: error: no semicolon at end of struct or union [-Werror]
+ } MCG_TypeDef;
+ ^
+In file included from ./keyboards/handwired/dell_u473d/config.h:20,
+                 from <command-line>:
+quantum/config_common.h:204:33: error: expected ')' before numeric constant
+     #define C2  PAL_LINE(GPIOC, 2)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:139:17: note: in expansion of macro 'C2'
+   __IO uint8_t  C2;
+                 ^~
+quantum/config_common.h:203:33: error: expected ')' before numeric constant
+     #define C1  PAL_LINE(GPIOC, 1)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:140:17: note: in expansion of macro 'C1'
+   __IO uint8_t  C1;
+                 ^~
+quantum/config_common.h:205:33: error: expected ')' before numeric constant
+     #define C3  PAL_LINE(GPIOC, 3)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:147:17: note: in expansion of macro 'C3'
+   __IO uint8_t  C3;
+                 ^~
+In file included from ./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:32,
+                 from ./lib/chibios-contrib/os/common/startup/ARMCMx/devices/KL2x/cmparams.h:78,
+                 from ./lib/chibios/os/common/ports/ARMCMx/chcore.h:70,
+                 from ./lib/chibios/os/rt/include/ch.h:81,
+                 from ./lib/chibios/os/hal/osal/rt/osal.h:32,
+                 from ./lib/chibios/os/hal/include/hal.h:28,
+                 from quantum/quantum.h:25,
+                 from keyboards/handwired/dell_u473d/dell_u473d.h:18,
+                 from keyboards/handwired/dell_u473d/dell_u473d.c:16:
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:148:1: error: no semicolon at end of struct or union [-Werror]
+ } SPI_TypeDef;
+ ^
+In file included from ./keyboards/handwired/dell_u473d/config.h:20,
+                 from <command-line>:
+quantum/config_common.h:171:33: error: expected ')' before numeric constant
+     #define A1  PAL_LINE(GPIOA, 1)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:152:17: note: in expansion of macro 'A1'
+   __IO uint8_t  A1;
+                 ^~
+quantum/config_common.h:203:33: error: expected ')' before numeric constant
+     #define C1  PAL_LINE(GPIOC, 1)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:154:17: note: in expansion of macro 'C1'
+   __IO uint8_t  C1;
+                 ^~
+quantum/config_common.h:204:33: error: expected ')' before numeric constant
+     #define C2  PAL_LINE(GPIOC, 2)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:157:17: note: in expansion of macro 'C2'
+   __IO uint8_t  C2;
+                 ^~
+quantum/config_common.h:172:33: error: expected ')' before numeric constant
+     #define A2  PAL_LINE(GPIOA, 2)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:161:17: note: in expansion of macro 'A2'
+   __IO uint8_t  A2;
+                 ^~
+quantum/config_common.h:203:33: error: expected ')' before numeric constant
+     #define C1  PAL_LINE(GPIOC, 1)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:170:17: note: in expansion of macro 'C1'
+   __IO uint8_t  C1;
+                 ^~
+quantum/config_common.h:204:33: error: expected ')' before numeric constant
+     #define C2  PAL_LINE(GPIOC, 2)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:171:17: note: in expansion of macro 'C2'
+   __IO uint8_t  C2;
+                 ^~
+quantum/config_common.h:205:33: error: expected ')' before numeric constant
+     #define C3  PAL_LINE(GPIOC, 3)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:174:17: note: in expansion of macro 'C3'
+   __IO uint8_t  C3;
+                 ^~
+quantum/config_common.h:206:33: error: expected ')' before numeric constant
+     #define C4  PAL_LINE(GPIOC, 4)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:176:17: note: in expansion of macro 'C4'
+   __IO uint8_t  C4;
+                 ^~
+In file included from ./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:32,
+                 from ./lib/chibios-contrib/os/common/startup/ARMCMx/devices/KL2x/cmparams.h:78,
+                 from ./lib/chibios/os/common/ports/ARMCMx/chcore.h:70,
+                 from ./lib/chibios/os/rt/include/ch.h:81,
+                 from ./lib/chibios/os/hal/osal/rt/osal.h:32,
+                 from ./lib/chibios/os/hal/include/hal.h:28,
+                 from quantum/quantum.h:25,
+                 from keyboards/handwired/dell_u473d/dell_u473d.h:18,
+                 from keyboards/handwired/dell_u473d/dell_u473d.c:16:
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:177:1: error: no semicolon at end of struct or union [-Werror]
+ } UART_TypeDef;
+ ^
+In file included from ./keyboards/handwired/dell_u473d/config.h:20,
+                 from <command-line>:
+quantum/config_common.h:203:33: error: expected ')' before numeric constant
+     #define C1  PAL_LINE(GPIOC, 1)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:183:17: note: in expansion of macro 'C1'
+   __IO uint8_t  C1;
+                 ^~
+quantum/config_common.h:204:33: error: expected ')' before numeric constant
+     #define C2  PAL_LINE(GPIOC, 2)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:184:17: note: in expansion of macro 'C2'
+   __IO uint8_t  C2;
+                 ^~
+quantum/config_common.h:205:33: error: expected ')' before numeric constant
+     #define C3  PAL_LINE(GPIOC, 3)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:187:17: note: in expansion of macro 'C3'
+   __IO uint8_t  C3;
+                 ^~
+quantum/config_common.h:206:33: error: expected ')' before numeric constant
+     #define C4  PAL_LINE(GPIOC, 4)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:191:17: note: in expansion of macro 'C4'
+   __IO uint8_t  C4;
+                 ^~
+quantum/config_common.h:207:33: error: expected ')' before numeric constant
+     #define C5  PAL_LINE(GPIOC, 5)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:192:17: note: in expansion of macro 'C5'
+   __IO uint8_t  C5;
+                 ^~
+In file included from ./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:32,
+                 from ./lib/chibios-contrib/os/common/startup/ARMCMx/devices/KL2x/cmparams.h:78,
+                 from ./lib/chibios/os/common/ports/ARMCMx/chcore.h:70,
+                 from ./lib/chibios/os/rt/include/ch.h:81,
+                 from ./lib/chibios/os/hal/osal/rt/osal.h:32,
+                 from ./lib/chibios/os/hal/include/hal.h:28,
+                 from quantum/quantum.h:25,
+                 from keyboards/handwired/dell_u473d/dell_u473d.h:18,
+                 from keyboards/handwired/dell_u473d/dell_u473d.c:16:
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:193:1: error: no semicolon at end of struct or union [-Werror]
+ } UARTLP_TypeDef;
+ ^
+In file included from ./keyboards/handwired/dell_u473d/config.h:20,
+                 from <command-line>:
+quantum/config_common.h:251:33: error: expected ')' before numeric constant
+     #define F1  PAL_LINE(GPIOF, 1)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:93:17: note: in expansion of macro 'F1'
+   __IO uint8_t  F1;
+                 ^~
+quantum/config_common.h:252:33: error: expected ')' before numeric constant
+     #define F2  PAL_LINE(GPIOF, 2)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:94:17: note: in expansion of macro 'F2'
+   __IO uint8_t  F2;
+                 ^~
+quantum/config_common.h:253:33: error: expected ')' before numeric constant
+     #define F3  PAL_LINE(GPIOF, 3)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:95:17: note: in expansion of macro 'F3'
+   __I  uint8_t  F3;
+                 ^~
+In file included from ./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:32,
+                 from ./lib/chibios-contrib/os/common/startup/ARMCMx/devices/KL2x/cmparams.h:78,
+                 from ./lib/chibios/os/common/ports/ARMCMx/chcore.h:70,
+                 from ./lib/chibios/os/rt/include/ch.h:81,
+                 from ./lib/chibios/os/hal/osal/rt/osal.h:32,
+                 from ./lib/chibios/os/hal/include/hal.h:28,
+                 from quantum/quantum.h:25,
+                 from keyboards/handwired/dell_u473d/dell_u473d.h:18,
+                 from keyboards/handwired/dell_u473d/dell_u473d.c:16:
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:373:33: error: expected declaration specifiers or '...' before '(' token
+ #define GPIOC                   ((GPIO_TypeDef  *)   GPIOC_BASE)
+                                 ^
+quantum/config_common.h:202:26: note: in expansion of macro 'GPIOC'
+     #define C0  PAL_LINE(GPIOC, 0)
+                          ^~~~~
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:254:17: note: in expansion of macro 'C0'
+   __IO uint8_t  C0;
+                 ^~
+In file included from ./keyboards/handwired/dell_u473d/config.h:20,
+                 from <command-line>:
+quantum/config_common.h:202:33: error: expected declaration specifiers or '...' before numeric constant
+     #define C0  PAL_LINE(GPIOC, 0)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:254:17: note: in expansion of macro 'C0'
+   __IO uint8_t  C0;
+                 ^~
+In file included from ./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:32,
+                 from ./lib/chibios-contrib/os/common/startup/ARMCMx/devices/KL2x/cmparams.h:78,
+                 from ./lib/chibios/os/common/ports/ARMCMx/chcore.h:70,
+                 from ./lib/chibios/os/rt/include/ch.h:81,
+                 from ./lib/chibios/os/hal/osal/rt/osal.h:32,
+                 from ./lib/chibios/os/hal/include/hal.h:28,
+                 from quantum/quantum.h:25,
+                 from keyboards/handwired/dell_u473d/dell_u473d.h:18,
+                 from keyboards/handwired/dell_u473d/dell_u473d.c:16:
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:373:33: error: expected declaration specifiers or '...' before '(' token
+ #define GPIOC                   ((GPIO_TypeDef  *)   GPIOC_BASE)
+                                 ^
+quantum/config_common.h:203:26: note: in expansion of macro 'GPIOC'
+     #define C1  PAL_LINE(GPIOC, 1)
+                          ^~~~~
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:255:17: note: in expansion of macro 'C1'
+   __IO uint8_t  C1;
+                 ^~
+In file included from ./keyboards/handwired/dell_u473d/config.h:20,
+                 from <command-line>:
+quantum/config_common.h:203:33: error: expected declaration specifiers or '...' before numeric constant
+     #define C1  PAL_LINE(GPIOC, 1)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:255:17: note: in expansion of macro 'C1'
+   __IO uint8_t  C1;
+                 ^~
+In file included from ./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:32,
+                 from ./lib/chibios-contrib/os/common/startup/ARMCMx/devices/KL2x/cmparams.h:78,
+                 from ./lib/chibios/os/common/ports/ARMCMx/chcore.h:70,
+                 from ./lib/chibios/os/rt/include/ch.h:81,
+                 from ./lib/chibios/os/hal/osal/rt/osal.h:32,
+                 from ./lib/chibios/os/hal/include/hal.h:28,
+                 from quantum/quantum.h:25,
+                 from keyboards/handwired/dell_u473d/dell_u473d.h:18,
+                 from keyboards/handwired/dell_u473d/dell_u473d.c:16:
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl26z.h:373:33: error: expected declaration specifiers or '...' before '(' token
+ #define GPIOC                   ((GPIO_TypeDef  *)   GPIOC_BASE)
+                                 ^
+quantum/config_common.h:204:26: note: in expansion of macro 'GPIOC'
+     #define C2  PAL_LINE(GPIOC, 2)
+                          ^~~~~
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:256:17: note: in expansion of macro 'C2'
+   __IO uint8_t  C2;
+                 ^~
+In file included from ./keyboards/handwired/dell_u473d/config.h:20,
+                 from <command-line>:
+quantum/config_common.h:204:33: error: expected declaration specifiers or '...' before numeric constant
+     #define C2  PAL_LINE(GPIOC, 2)
+                                 ^
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:256:17: note: in expansion of macro 'C2'
+   __IO uint8_t  C2;
+                 ^~
+In file included from ./lib/chibios-contrib/os/common/startup/ARMCMx/devices/KL2x/cmparams.h:78,
+                 from ./lib/chibios/os/common/ports/ARMCMx/chcore.h:70,
+                 from ./lib/chibios/os/rt/include/ch.h:81,
+                 from ./lib/chibios/os/hal/osal/rt/osal.h:32,
+                 from ./lib/chibios/os/hal/include/hal.h:28,
+                 from quantum/quantum.h:25,
+                 from keyboards/handwired/dell_u473d/dell_u473d.h:18,
+                 from keyboards/handwired/dell_u473d/dell_u473d.c:16:
+./lib/chibios-contrib/os/common/ext/CMSIS/KINETIS/kl2xz.h:257:1: error: no semicolon at end of struct or union [-Werror]
+ } DAC_TypeDef;
+ ^
+cc1: all warnings being treated as errors
+ [ERRORS]
+ | 
+ | 
+ | 
+make[1]: *** [tmk_core/rules.mk:372: .build/obj_handwired_dell_u473d_teensy_lc_default/keyboards/handwired/dell_u473d/dell_u473d.o] Error 1
+Make finished with errors
+make: *** [Makefile:551: handwired/dell_u473d/teensy_lc:default] Error 1
