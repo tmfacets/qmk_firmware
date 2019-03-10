@@ -32,7 +32,6 @@
  * final column.
  */
 
-//Style note: 1U = 8 char, including delim
 #define LAYOUT( \
               KS7,    KS6,    KS5,    KS3,          KS2,    KS0,\
   KA5,        KB0,    KC0,    KC3,    KC5,          KR5,    KF5,    KG3,    KG0,          KR0,    KR1,    KO1,    KN1,                                            KI1,    KI2,    KQ6,\

@@ -41,12 +41,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
-#define MATRIX_ROW_PINS { TEENSYPIN20, TEENSYPIN7, TEENSYPIN19, TEENSYPIN8, TEENSYPIN18, TEENSYPIN9, TEENSYPIN17, TEENSYPIN10 }
-#define MATRIX_COL_PINS { TEENSYPIN0, TEENSYPIN26, TEENSYPIN1, TEENSYPIN25, TEENSYPIN2, TEENSYPIN24, TEENSYPIN3, TEENSYPIN23, TEENSYPIN4, TEENSYPIN22, TEENSYPIN5, TEENSYPIN21, TEENSYPIN6, TEENSYPIN16, TEENSYPIN11, TEENSYPIN15, TEENSYPIN12, TEENSYPIN14, TEENSYPIN13 }
+
+//ref <https://kiibohd.github.io/wiki/#/Teensy
+#define MATRIX_ROW_PINS { D5, D2, B2, D3, B3, C3, B1, C4 };
+#define MATRIX_COL_PINS { B16, E1, B17, B19, D0, A5, A12, C2, A13, C1, D7, D6, D4, B0, C6, C0, C7, D1, C5 };
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
-#define DIODE_DIRECTION COL2ROW
+//This is a rubber dome keyboard, there are no diodes.
+#define DIODE_DIRECTION ROW2COL
 
 /*
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
@@ -83,7 +86,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEBOUNCING_DELAY 5
 
 /* define if matrix has ghost (lacks anti-ghosting diodes) */
-#define MATRIX_HAS_GHOST
+//#define MATRIX_HAS_GHOST
 
 /* number of backlight levels */
 
@@ -183,11 +186,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_PRINT
 
 /* disable action features */
-//#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
-//#define NO_ACTION_MACRO
-//#define NO_ACTION_FUNCTION
+#define NO_ACTION_LAYER
+#define NO_ACTION_TAPPING
+#define NO_ACTION_ONESHOT
+#define NO_ACTION_MACRO
+#define NO_ACTION_FUNCTION
 
 /*
  * MIDI options

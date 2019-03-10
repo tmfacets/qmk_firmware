@@ -1,4 +1,4 @@
-/* Copyright 2019 REPLACE_WITH_YOUR_NAME
+/* Copyright 2019 Kevin Grabbe <ke.grabb@gmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
  */
 #include "dell_u473d.h"
 
-void matrix_init_kb(void) {
+/*void matrix_init_kb(void) {
 	// put your keyboard start-up code here
 	// runs once when the firmware starts up
 
@@ -41,3 +41,4 @@ void led_set_kb(uint8_t usb_led) {
 
 	led_set_user(usb_led);
 }
+*/
