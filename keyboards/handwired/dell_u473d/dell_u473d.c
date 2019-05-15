@@ -15,13 +15,15 @@
  */
 #include "dell_u473d.h"
 
-/*void matrix_init_kb(void) {
+__attribute__ ((weak))
+void matrix_init_kb(void) {
 	// put your keyboard start-up code here
 	// runs once when the firmware starts up
 
 	matrix_init_user();
 }
 
+__attribute__ ((weak))
 void matrix_scan_kb(void) {
 	// put your looping keyboard code here
 	// runs every cycle (a lot)
@@ -41,4 +43,3 @@ void led_set_kb(uint8_t usb_led) {
 
 	led_set_user(usb_led);
 }
-*/

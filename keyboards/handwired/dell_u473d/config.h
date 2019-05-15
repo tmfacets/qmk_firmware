@@ -17,7 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#include "config_common.h"
+// config_common.h isn't useful for ARM keyboards. No idea why, leaving it out anyway.
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
@@ -40,25 +40,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * DIODE_DIRECTION: COL2ROW = COL = Anode (+), ROW = Cathode (-, marked on diode)
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
+ * For ARM keyboards, this tends to be implemented differently in the custom matric.c file.
 */
 
-//ref <https://kiibohd.github.io/wiki/#/Teensy
-#define MATRIX_ROW_PINS { D5, D2, B2, D3, B3, C3, B1, C4 };
-#define MATRIX_COL_PINS { B16, E1, B17, B19, D0, A5, A12, C2, A13, C1, D7, D6, D4, B0, C6, C0, C7, D1, C5 };
-#define UNUSED_PINS
+//#define MATRIX_ROW_PINS { TEENSY_PIN20_IOPORT, TEENSY_PIN7_IOPORT, TEENSY_PIN19_IOPORT, TEENSY_PIN8_IOPORT, TEENSY_PIN18_IOPORT, TEENSY_PIN9_IOPORT, TEENSY_PIN17_IOPORT, TEENSY_PIN10_IOPORT }
+//#define MATRIX_COL_PINS { TEENSY_PIN0_IOPORT, TEENSY_PIN26_IOPORT, TEENSY_PIN1_IOPORT, TEENSY_PIN25_IOPORT, TEENSY_PIN2_IOPORT, TEENSY_PIN24_IOPORT, TEENSY_PIN3_IOPORT, TEENSY_PIN23_IOPORT, TEENSY_PIN4_IOPORT, TEENSY_PIN22_IOPORT, TEENSY_PIN5_IOPORT, TEENSY_PIN21_IOPORT, TEENSY_PIN6_IOPORT, TEENSY_PIN16_IOPORT, TEENSY_PIN11_IOPORT, TEENSY_PIN15_IOPORT, TEENSY_PIN12_IOPORT, TEENSY_PIN14_IOPORT, TEENSY_PIN13_IOPORT }
+//#define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
 //This is a rubber dome keyboard, there are no diodes.
-#define DIODE_DIRECTION ROW2COL
-
-/*
- * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
- */
-//#define SOFT_SERIAL_PIN D0 // or D1, D2, D3, E6
-
-// #define BACKLIGHT_PIN B7
-// #define BACKLIGHT_BREATHING
-// #define BACKLIGHT_LEVELS 3
+//#define DIODE_DIRECTION ROW2COL
 
 // #define RGB_DI_PIN E2
 // #ifdef RGB_DI_PIN
@@ -86,7 +77,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEBOUNCING_DELAY 5
 
 /* define if matrix has ghost (lacks anti-ghosting diodes) */
-//#define MATRIX_HAS_GHOST
+#define MATRIX_HAS_GHOST
 
 /* number of backlight levels */
 
