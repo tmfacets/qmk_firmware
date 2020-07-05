@@ -51,10 +51,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define BACKLIGHT_PIN B5
 #define BACKLIGHT_BREATHING
+#define BREATHING_PERIOD 2
 #define BACKLIGHT_LEVELS 3
 
 //Typing behavior
 #define TAPPING_TOGGLE 2
+#define ONESHOT_TIMEOUT 2000
+#define TAP_CODE_DELAY 100
 
 // #define RGB_DI_PIN E2
 // #ifdef RGB_DI_PIN
