@@ -1,0 +1,235 @@
+[
+  {
+    "name": "DecisionForce 6800 B",
+    "switchMount": "cherry",
+    "switchBrand": "gateron",
+    "switchType": "KS-3-Yellow",
+    "plate": true,
+    "pcb": true
+  },
+  [
+    {
+      "c": "#29211c",
+      "t": "#959083",
+      "p": "DCS",
+      "sm": "cherry",
+      "sb": "gateron",
+      "st": "KS-3-Yellow"
+    },
+    "\n\n`\n\n\n\n\n\n~\nESC",
+    {
+      "c": "#6e6d6b"
+    },
+    "!\n\nF1\n\n\n\n\n\n\n1",
+    "@\n\nF2\n\n\n\n\n\n\n2",
+    "#\n\nF3\n\n\n\n\n\n\n3",
+    "$\n\nF4\n\n\n\n\n\n\n4",
+    "%\n\nF5\n\n\n\n\n\n\n5",
+    "^\n\nF6\n\n\n\n\n\n\n6",
+    {
+      "c": "#e4dedd"
+    },
+    "&\n/\nF7\n\n\n\n\n\n\n7",
+    "*\n*\nF8\n\n\n\n\n\n\n8",
+    "(\n-\nF9\n\n\n\n\n\n\n9",
+    {
+      "c": "#6e6d6b"
+    },
+    ")\n\nF10\n\n\n\n\n\n\n0",
+    "_\n\nF11\n\n\n\n\n\n\n-",
+    "+\n\nF12\n\n\n\n\n\n\n=",
+    {
+      "c": "#29211c",
+      "w": 2
+    },
+    "\n\nDELETE\n\n\n\n\n\n\nBACKSPACE",
+    {
+      "x": 0.25,
+      "c": "#005699"
+    },
+    "\nM4\nM8\n\n\n\n\n\n\nM0",
+    {
+      "t": "#5dceba\n#959083\n\n#dd6151\n\n\n\n\n\n#959083"
+    },
+    "\nM5\nD1\nR1\n\n\n\n\n\nM1"
+  ],
+  [
+    {
+      "c": "#29211c",
+      "t": "#959083",
+      "a": 7,
+      "w": 1.5
+    },
+    "TAB",
+    {
+      "c": "#6e6d6b"
+    },
+    "Q",
+    "W",
+    "E",
+    "R",
+    "T",
+    {
+      "c": "#e4dedd",
+      "a": 4
+    },
+    "\n7\n\n\n\n\n\n\n\nY",
+    "\n8\n\n\n\n\n\n\n\nU",
+    "\n9\n\n\n\n\n\n\n\nI",
+    "\n+\nPRT\n\n\n\n\n\n\nO",
+    {
+      "c": "#6e6d6b"
+    },
+    "\n\nSLK\n\n\n\n\n\n\nP",
+    "{\n\nBRK\n\n\n\n\n\n\n[",
+    "}\n\nCAL\n\n\n\n\n\n\n]",
+    {
+      "c": "#29211c",
+      "w": 1.5
+    },
+    "|\n\n\n\n\n\n\n\n\n\\",
+    {
+      "x": 0.25,
+      "c": "#005699"
+    },
+    "\nM6\nM9\n\n\n\n\n\n\nM2",
+    {
+      "t": "#5dceba\n#959083\n\n#dd6151\n\n\n\n\n\n#959083"
+    },
+    "\nM7\nD2\nR2\n\n\n\n\n\nM3"
+  ],
+  [
+    {
+      "c": "#29211c",
+      "t": "#959083",
+      "a": 7,
+      "w": 1.75
+    },
+    "CAPS",
+    {
+      "c": "#6e6d6b"
+    },
+    "A",
+    "S",
+    "D",
+    {
+      "n": true
+    },
+    "F",
+    "G",
+    {
+      "c": "#e4dedd",
+      "a": 4
+    },
+    "\n4\n\n\n\n\n\n\n\nH",
+    {
+      "n": true
+    },
+    "\n5\n\n\n\n\n\n\n\nJ",
+    "\n6\n\n\n\n\n\n\n\nK",
+    {
+      "c": "#6e6d6b",
+      "a": 7
+    },
+    "L",
+    {
+      "a": 4
+    },
+    ":\n\n\n\n\n\n\n\n\n;",
+    "\"\n\n\n\n\n\n\n\n\n'",
+    {
+      "c": "#29211c",
+      "a": 7,
+      "w": 2.25
+    },
+    "ENTER"
+  ],
+  [
+    {
+      "w": 2.25
+    },
+    "SHIFT",
+    {
+      "c": "#6e6d6b"
+    },
+    "Z",
+    "X",
+    "C",
+    "V",
+    {
+      "c": "#e4dedd",
+      "a": 4
+    },
+    "\n0\n\n\n\n\n\n\n\nB",
+    "\n1\nV-\n\n\n\n\n\n\nN",
+    "\n2\nV+\n\n\n\n\n\n\nM",
+    "<\n3\nVX\n\n\n\n\n\n\n,",
+    {
+      "c": "#6e6d6b",
+      "t": "#959083\n\n#dd6151"
+    },
+    ">\n\nRS\n\n\n\n\n\n\n.",
+    {
+      "t": "#959083"
+    },
+    "?\n\n\n\n\n\n\n\n\n/",
+    {
+      "c": "#29211c",
+      "a": 7,
+      "w": 2.75
+    },
+    "SHIFT",
+    {
+      "x": 0.25,
+      "c": "#005699",
+      "a": 4
+    },
+    "\nBL_I\nPGUP\n\n\n\n\n\n\n↑"
+  ],
+  [
+    {
+      "c": "#29211c",
+      "a": 7,
+      "w": 1.25
+    },
+    "CTRL",
+    {
+      "w": 1.25
+    },
+    "SUPER",
+    {
+      "w": 1.25
+    },
+    "ALT",
+    {
+      "c": "#6e6d6b",
+      "t": "#29211c",
+      "w": 6.25
+    },
+    "",
+    {
+      "c": "#29211c",
+      "t": "#959083",
+      "w": 1.25
+    },
+    "FN",
+    {
+      "a": 4,
+      "w": 1.25
+    },
+    "\n\nNUM\n\n\n\n\n\n\nALT",
+    {
+      "t": "#959083\n\n#dd6151",
+      "w": 1.25
+    },
+    "\n\nREC\n\n\n\n\n\n\nCTRL",
+    {
+      "x": 0.5,
+      "c": "#005699",
+      "t": "#959083"
+    },
+    "\nBL_T\nHOME\n\n\n\n\n\n\n←",
+    "\nBL_D\nPGDN\n\n\n\n\n\n\n↓",
+    "\nBL_S\nEND\n\n\n\n\n\n\n→"
+  ]
+]

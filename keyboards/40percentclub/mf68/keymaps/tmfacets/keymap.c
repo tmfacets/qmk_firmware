@@ -20,20 +20,13 @@
 #define KC_BL4 BL_INC
 #define KC_BL5 BL_DEC
 
-//I believe redefining these will overwrite them
-#define KC_D1 KC_TRNS
-#define KC_D2 KC_TRNS
-#define KC_R1 KC_TRNS
-#define KC_R2 KC_TRNS
-#define KC_RSTP KC_TRNS
-
-#ifdef DYNAMIC_MACROS_H
+//Dynamic Macros
 #define KC_D1 DM_PLY1
 #define KC_D2 DM_PLY2
 #define KC_R1 DM_REC1
 #define KC_R2 DM_REC2
 #define KC_RSTP DM_RSTP
-#endif //DYNAMIC_MACROS_H
+
 
 enum custom_keycodes {
   KC_M0 = SAFE_RANGE,
@@ -85,9 +78,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  /*|tab---`-q--`-w--`-e--`-r--`-t--`-y--`-u--`-i--`-o--`-p--`-{--`-}--`--|---|  `del-`pgdn' */
            ,    ,    ,    ,    ,    , 4  , 5  , 6  ,PENT,    ,    ,          ,
  /*|caps---`-a--`-s--`-d--`-f--`-g--`-h--`-j--`-k--`-l--`-;--`-'--`----enter-|  ,----. */
-             ,    ,    ,    ,    , 0  , 1  , 2  , 3  ,    ,    ,             ,       ,
+             ,    ,    ,    ,    , 0  , 1  , 2  , 3  ,    ,    ,             ,    BL4,
  /*|shift----`-z--`-x--`-c--`-v--`-b--`-n--`-m--`-,--`-.--`-/--`-------shift-.--|-up-|----. */
-         ,     ,     ,                              ,      ,     ,     ,        ,    ,    
+         ,     ,     ,                              ,      ,     ,     ,     BL3, BL5, BL1
  /*`ctrl-+-gui-+-alt-+----------space---------------+-fn---+-alt-+ctrl-'   `left+down+rght' */
   ),
   
